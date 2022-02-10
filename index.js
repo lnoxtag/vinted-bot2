@@ -103,7 +103,7 @@ const syncSubscription = (sub) => {
                                 .setStyle('LINK'),
                             new Discord.MessageButton()
                                 .setLabel('Message')
-                                .setURL(`https://www.vinted.fr/inbox/${item.id`)
+                                .setURL(`https://www.vinted.fr/inbox/${item.id}`)
                                 .setEmoji('📨')
                                 .setStyle('LINK')
                             
