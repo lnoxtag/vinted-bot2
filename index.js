@@ -102,11 +102,10 @@ const syncSubscription = (sub) => {
                                 .setEmoji('🔎')
                                 .setStyle('LINK'),
                             new Discord.MessageButton()
-                                .setLabel('Message')
-                                .setURL(`https://www.vinted.fr/inbox/${item.id}`)
-                                .setEmoji('📨')
+                                .setLabel('Acheter')
+                                .setURL(`https://www.vinted.fr/transaction/buy/new?source_screen=item&transaction%5Bitem_id%5D=${item.id}`)
+                                .setEmoji('💸')
                                 .setStyle('LINK')
-                            
                         ])
                 ] });
             }
